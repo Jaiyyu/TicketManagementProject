@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    
+    margin: 0;
+    padding: 0;
+}
+
+.Toolbox {
+    height: 5rem;
+    background-color:  #596275;
+    display: flex;
+  align-items: center;
+  
+}
+
+.Toolbox > * {
+    margin-left: 5rem;
+    border-radius: 5px;
+}
+.Prioritybox > * {
+    border-radius: 3px;
+}
+.Prioritybox {
+    height: 3.5rem;
+    width: 20%;
+    background-color: #303952;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    
+}
+
+.Actionbox {
+    height :4rem;
+    width: 10%;
+    background-color: #303952;
+    display: flex;
+   
+  
+}
+
+.Actionbox > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%; 
+    font-size: 2.5rem;
+}
+
+.color {
+    height: 2rem;
+    width: 3rem;
+    background-color: green;
+margin-left: 2px
+;
+}
+
+.green-blue {
+background-color: #55efc4;
+}
+
+.electron-blue {
+    background-color: #0984e3;
+}
+
+.dark-pink {
+    background-color: #e84393;
+}
+
+.pencil-grey {
+    background-color: #b2bec3;
+}
+
+.actionbtn:hover {
+    background-color: #dff9fb;
+}
+
+.deletebtn:hover {
+    background-color: #dff9fb;
+}
